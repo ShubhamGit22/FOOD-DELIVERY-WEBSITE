@@ -1,0 +1,44 @@
+.contact{
+    background: linear-gradient(rgb(250, 227, 222), rgb(198, 135, 129));      
+    width: 100%;
+ }
+ .contact h1{
+     text-align: center;
+     padding-top: 2%;
+     font-size: 1.7em;
+     font-weight: 600;
+     text-decoration: underline;
+     cursor: pointer;
+ }
+ .contact h1:hover{
+     animation: contact 1.2s linear;
+ }
+ @keyframes contact{
+     0%{
+         transform: scaleX(1);
+     }
+     100%{
+         transform: scaleX(1.2);
+     }
+ }
+ 
+ 
+ .contact-conditions div{
+     padding: 20px 30px;
+ }
+ 
+ 
+ .contact-conditions div h2{
+     margin-bottom: 5px;
+     font-size: 1.2em;
+ }
+ .contact-conditions div p{
+     padding-left: 25px;
+     font-size:1em;
+ }
+
+ .address{
+    display: flex;
+    align-items: center;
+    gap: 10px;    
+ }

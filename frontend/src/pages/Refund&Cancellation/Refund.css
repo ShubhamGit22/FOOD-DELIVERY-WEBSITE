@@ -1,0 +1,46 @@
+.refund{
+    background: linear-gradient(rgb(250, 227, 222), rgb(198, 135, 129));        
+    width: 100%;
+ 
+ }
+ .refund h1{
+     text-align: center;
+     padding-top: 2%;
+     font-size: 1.7em;
+     font-weight: 600;
+     text-decoration: underline;
+ }
+ .refund h1:hover{
+     animation: terms 1.2s linear;
+ }
+ @keyframes refund{
+     0%{
+         transform: scaleX(1);
+     }
+     100%{
+         transform: scaleX(1.2);
+     }
+ }
+ 
+ 
+ .refund-conditions div{
+     padding: 20px 30px;
+ }
+ 
+ 
+ .refund-conditions div h2{
+     margin-bottom: 5px;
+     font-size: 1.2em;
+ }
+ .refund-conditions div p{
+     padding-left: 25px;
+     font-size:1em;
+ }
+ 
+ .unordered-list{
+    padding-left:3vw ;
+ }
+ hr{
+     height: 1px;
+     border: none;
+ }
