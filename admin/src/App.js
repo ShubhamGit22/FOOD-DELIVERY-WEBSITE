@@ -14,7 +14,8 @@ import 'react-toastify/dist/ReactToastify.css';
 
 function App() {
 
-  const url = "http://localhost:4000"                         //backend url
+ // const url = "http://localhost:4000"                         //backend url
+  const url = "https://backend-mern-food-delivery-website.onrender.com"
 
   return (
     <div className="App">
