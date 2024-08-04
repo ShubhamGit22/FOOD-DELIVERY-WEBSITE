@@ -6,8 +6,8 @@ const stripe = new Stripe(process.env.STRIPE_SECRET_KEY); //we get the support s
 
 //placing user order from frontend
 const placeOrder = async (req, res) => {
-  const frontend_url = "http://localhost:3001";
-
+  //const frontend_url = "http://localhost:3001"                  
+  const url = "https://frontend-mern-food-delivery-website.onrender.com"              //frontend url added.
   try {
     const newOrder = new orderModel({
       userId: req.body.userId, //will get this userId once token is generated and decoded.
