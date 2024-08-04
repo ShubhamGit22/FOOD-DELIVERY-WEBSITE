@@ -8,7 +8,7 @@ const StoreContextProvider = (props) => {
   const [cartItems, setCartItems] = useState({});
 
   // const url = "http://localhost:4000"                                          
-  const url = "https://mern-food-delivery-website.onrender.com                  
+  const url = "https://backend-mern-food-delivery-website.onrender.com"                 
                                                                       //backend url after deploying it on render.
   
   const [token, setToken] = useState("")
