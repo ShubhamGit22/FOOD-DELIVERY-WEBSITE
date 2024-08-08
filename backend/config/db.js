@@ -6,7 +6,3 @@ mongoose.connect("mongodb+srv://shubhamac7308:rLzcJiHHPr6s8Op4@cluster0.9yvlzop.
 
 
 
-
-// logged in with email shubhamac7308@gmail.com
-// username :- shubhamac7308
-//password :- rLzcJiHHPr6s8Op4

@@ -5,6 +5,8 @@ import profile_image from './profile_image.png'
 import upload_area from './upload_area.png'
 import parcel_icon from './parcel_icon.png'
 
+ // export const url = 'http://localhost:4000'
+// export const url = "https://backend-mern-food-delivery-website.onrender.com"                                        //backend url after deploying on render.
 export const contentFiles ={
     logo,
     add_icon,
@@ -14,4 +16,3 @@ export const contentFiles ={
     parcel_icon
 }
 
-// export const url = 'http://localhost:4000'
